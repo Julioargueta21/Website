@@ -1,24 +1,28 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en">
 <!--Language-->
+<html lang="en">
+
 
 <head>
+  <!--Telling the browser what text encoding to use-->
   <meta charset="utf-8">
-  <!--Telling the browser what encoding to use-->
+  
 
   <!--This is what makes it responsive-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=0, maximum-scale=1.0">
+  
+  <!--StyleSheets-->
   <link rel="stylesheet" type="text/css" href="CSS/index.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="js/index.js"></script>
+  <!--JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="JS/compLoader.js"></script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script> 
+  <script src="js/index.js"></script>
+ 
+ 
 
 
 
@@ -31,50 +35,52 @@
   <!--Nav Bar-->
   <div id="navBar"></div>
 
-  <!--Content-->
-
-  <section class="hero is-info is-medium">
-    <div class="hero-body is-medium">
-      <div class="container">
-        <h1 class="title">
-          <div class="tile is-vertical is-8 is-dark">
-            <section class="fancy">
-              <h1>
-                <span class="fancyTitle">This is</span>
-                <span class="fancyTitle">a long</span>
-                <span class="fancyTitle">long title</span>
-              </h1>
-            </section>
-          </div>
-          
-  </section>
-
-
-
-
-
-  <div class="container has-text-centered has-background-info is-fullhd">
-    <h1><u>This is my first attempt at HTML!</u></h1>
-    <h2>Let me know if it looks good ;)</h2>
-
-    <p><span class="para">
-        My name is Julio Argueta, <i class="em em-wave"></i> and this is my first attempt at making a website.
-
-        So wish me luck on my adventures!</span></p>
-
-    <p><b>This is a bold text.</b>
-      <i>Italic text</i>
-      <u>Underlined text</u>
-      <sub>Subscript text</sub>
-      <sup>Superscript text</sup></p>
-
-    <img class="yoshi-egg" src="https://media.giphy.com/media/Ybn6JMiTnjm4U/giphy.gif"></img>
-    <img class="yoshi" src="https://i.gifer.com/ZaiM.gif"></img>
-
-    <a href="htmlComponents/navBar.html"> This is a link to navbar</a>
+<!--Content-->
+<section class="hero is-fullheight is-info">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <section class="fancy">
+          <h1 id="fancyText">
+            <span class="fancyTitle">Welcome</span>
+            <span class="fancyTitle">to my</span>
+            <span class="fancyTitle">Webiste</span>
+          </h1>
+        </section>
+      </h1>
+    </div>
   </div>
+</section>
 
-  <div id="footer"></div>
+
+
+
+<section class="hero is-parent is-info">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1><u>This is my first attempt at HTML!</u></h1>
+      <h2>Let me know if it looks good ;)</h2>
+
+      <p><span class="para">
+          My name is Julio Argueta, <i class="em em-wave"></i> and this is my first attempt at making a website.
+          So wish me luck on my adventures!</span>
+      </p>
+
+      <p><b>This is a bold text.</b>
+        <i>Italic text</i>
+        <u>Underlined text</u>
+        <sub>Subscript text</sub>
+        <sup>Superscript text</sup>
+      </p>
+
+      <img src="Assets/yoshiEgg.gif"></img>
+      <img src="Assets/mario.gif"></img>
+    </div>
+  </div>
+</section>
+<!--Footer Insertion Code-->
+<div id="footer"></div>
+
 </body>
 
 </html>
