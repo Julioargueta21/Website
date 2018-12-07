@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
-html {
-  height: 100%;
-}
-
 body {
   font-family: 'Fjalla One', sans-serif;
-  background: linear-gradient(to bottom, #405166 0%, #656f6f 100%);
 }
 
 .fancy {
@@ -17,26 +12,9 @@ body {
   max-width: 225px;
 }
 
-.fancyButton {
-  float: left;
-  position: relative;
-  bottom: -65px;
-  left: 50%;
-  transform: translateX(-50%) rotate(-10deg);
-  color: #e55643;
-  text-transform: uppercase;
-  opacity: 0;
-  visibility: hidden;
-  cursor: pointer;
-}
-.fancyButton span {
-  transform: skew(-10deg);
-  display: block;
-  float: left;
-  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
-}
 
-h1 {
+
+#fancyText {
   color: #fff;
   text-transform: uppercase;
   font-size: 42px;
@@ -62,12 +40,12 @@ h1 {
   position: relative;
 }
 
-.facnyTitle:nth-child(1) {
+.fancyTitle:nth-child(1) {    /* First Line Color*/
   color: #e55643;
 }
-.fancyTitle:nth-child(2) {
+.fancyTitle:nth-child(2) {    /* Second Line Color*/
   color: #2b9f5e;
 }
-.fancyTitle:nth-child(3) {
+.fancyTitle:nth-child(3) {    /* Third Line Color*/
   color: #f1c83c;
 }
