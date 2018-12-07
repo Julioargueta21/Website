@@ -25,15 +25,18 @@ function animation() {
   })
 }
 
+
 function myLoop() {
   setTimeout(function () {
     animation();
-    
+    $('#fancyText').hover(function(){
+      animation()},1000);
+
     if (i < Number.POSITIVE_INFINITY) {
       i++;
       myLoop();
     }
-  }, 1500)
+  },250)
 }
 
 /*Calling the functions from the CDN LIB and the functions above */ 
