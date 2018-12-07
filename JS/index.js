@@ -1,13 +1,9 @@
-$(document).ready(function () {
-  $(".fancyTitle").lettering();
-});
+/*Global Vars*/
+
+var i = 1;
 
 
-$(document).ready(function () {
-  animation();
-}, 1000);
-
-
+/*Functions*/
 function animation() {
   var title1 = new TimelineMax();
   title1.to(".fancyButton", 0, {
@@ -28,3 +24,25 @@ function animation() {
     opacity: 1
   })
 }
+
+function myLoop() {
+  setTimeout(function () {
+    animation();
+    
+    if (i < Number.POSITIVE_INFINITY) {
+      i++;
+      myLoop();
+    }
+  }, 1500)
+}
+
+/*Calling the functions from the CDN LIB and the functions above */ 
+$(document).ready(function () {
+  $(".fancyTitle").lettering();
+});
+
+
+$(document).ready(function () {
+  myLoop();
+}, 1000);
+
