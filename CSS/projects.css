@@ -1,0 +1,19 @@
+
+
+.babyLuigi{
+    position: absolute;
+    width: 100px;
+    bottom: 30px;
+    left: 250px;
+}
+
+.dlc{
+    position: absolute;
+    right: 467px;
+    top: 100px;
+}
+
+.luigi{
+    position: relative;
+    right: 20px;
+}
