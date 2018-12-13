@@ -12,7 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=0, maximum-scale=1.0">
   
   <!--StyleSheets-->
-  <link rel="stylesheet" type="text/css" href="CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/global.css">
+
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -23,29 +24,62 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js'></script> 
   <script src="JS/index.js"></script>
  
- 
-
-
-  <title>Julio's First Website</title>
+<title>Contact Us</title>
 </head>
 
 
 <body>
-    <!--Nav Bar-->
+  <!--Nav Bar-->
   <div id="navBar"></div>
-  
-  <div class="container ">
-        <div class="notification is-info">
-          This container is <strong>centered</strong> on desktop.
+
+
+
+  <section class="hero is-info">
+    <div class="hero-body">
+      <div class="container">
+        <div class="container ">
+          <div class="notification is-dark ">
+              <p 
+              class="has-text-white has-text-centered is-size-3">
+                Contact Me
+              </p>
+
+
+            <div class="field ">
+              <label class="label  has-text-white ">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Name input">
+              </div>
+            </div>
+
+            <div class="field" >
+              <label class="label has-text-white">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="Email input">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+
+
+                <div class="field">
+                  <label class="label has-text-white">Message</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Message input"></textarea>
+                  </div>
+                </div>
+
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button class="button is-link  has-text-white">Submit</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-
-
-
-<!--Footer Insertion Code-->
-<div id="footer"></div>
-
-</body>
-
-
+  </section>
+  <!--Footer Insertion Code-->
+  <div id="footer"></div>
 </body>
