@@ -32,10 +32,12 @@ h2 {
   font-weight: normal;
   z-index: 999;
 }
+
 h2 span {
   font-size: 15px;
   font-weight: lighter;
 }
+
 h2 a {
   color: white;
   font-size: 15px;

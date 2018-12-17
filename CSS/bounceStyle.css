@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Titan+One);
+/* BODY */
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;  
+  height: 100%;  
+  background-size: 100% 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: transparent;
+}
+
+/* JUMP */
+.bounceH1 {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  
+  text-align: center;
+}
+
+.bounceH1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  
+  -webkit-animation: bounce .4s ease infinite alternate;
+  
+  font-family: 'Titan One', cursive;
+  font-size: 80px;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+.bounceH1 span:nth-child(2) {
+  -webkit-animation-delay: .1s;
+}
+.bounceH1 span:nth-child(3) {
+  -webkit-animation-delay: .2s;
+}
+.bounceH1 span:nth-child(4) {
+  -webkit-animation-delay: .3s;
+}
+.bounceH1 span:nth-child(5) {
+  -webkit-animation-delay: .4s;
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
