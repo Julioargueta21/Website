@@ -1,5 +1,9 @@
 
 
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 .babyLuigi{
     position: absolute;
     width: 100px;
