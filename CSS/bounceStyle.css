@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Titan+One);
 /* BODY */
 body {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -19,7 +19,7 @@ body {
 /* JUMP */
 .bounceH1 {
   cursor: default;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -34,7 +34,7 @@ body {
 
 .bounceH1 span {
   position: relative;
-  top: 20px;
+  top: 0px;
   display: inline-block;
   
   -webkit-animation: bounce .4s ease infinite alternate;
@@ -65,6 +65,16 @@ body {
 .bounceH1 span:nth-child(5) {
   -webkit-animation-delay: .4s;
 }
+.bounceH1 span:nth-child(6) {
+  -webkit-animation-delay: .5s;
+}
+.bounceH1 span:nth-child(7) {
+  -webkit-animation-delay: .6s;
+}
+.bounceH1 span:nth-child(8) {
+  -webkit-animation-delay: .7s;
+}
+
 /* ANIMATION */
 @-webkit-keyframes bounce {
   100% {
