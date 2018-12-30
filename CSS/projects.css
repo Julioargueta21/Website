@@ -16,6 +16,11 @@
     right: 20px;
 }
 
+.recieptLogo{
+    position: relative;
+    right: 20px;
+}
+
 .title-overlay {
     background: rgba(0, 0, 0, 0);
     position: absolute;
