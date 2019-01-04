@@ -24,9 +24,7 @@ display: inline-block;
   justify-content: center;
 }
 
-.roundit{
-  border-radius: 12px;
-}
+
 
 .fancy {
   transform: translate(-50%, -50%);
