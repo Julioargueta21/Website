@@ -37,10 +37,11 @@ body {
   top: 0px;
   display: inline-block;
   
-  -webkit-animation: bounce .4s ease infinite alternate;
   
+  -webkit-animation: bounce .4s ease infinite alternate;
+
   font-family: 'Titan One', cursive;
-  font-size: 80px;
+  font-size: calc(2vw + 3vh + 1vmin);
   color: #FFF;
   text-shadow: 0 1px 0 #CCC,
                0 2px 0 #CCC,
