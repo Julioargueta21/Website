@@ -21,18 +21,6 @@
     right: 20px;
 }
 
-.title-overlay {
-    background: rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0px;
-    right: 25px;
-    bottom: 0px;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
 .modfan{
     display: flex; 
@@ -40,6 +28,11 @@
     width:230px; /* or whatever width you want. */
     max-width:230px; /* or whatever width you want. */
     display: inline-block;
-    
-    
-    } 
+}
+
+
+.title-overlay {
+    background: rgba(0, 0, 0, 0);
+    white-space: nowrap
+
+}
