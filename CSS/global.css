@@ -7,3 +7,7 @@ body {
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+.roundit{
+    border-radius: 12px;
+  }
